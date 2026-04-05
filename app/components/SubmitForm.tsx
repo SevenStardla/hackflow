@@ -16,7 +16,6 @@ export default function SubmitForm({ teams, hackathonSlug }: Props) {
   const [plan,setPlan] = useState("")
   const [web,setWeb] = useState("")
   const [pdf,setPdf] = useState("")
-  const team = teams.find(t => t.id === teamId)
 
   function submit(){
 
