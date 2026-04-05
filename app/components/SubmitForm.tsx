@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Team, Submission } from "../types"
+import { Team } from "../types"
 import { getSubmissions, saveSubmissions } from "../utils/storage"
 
 type Props = {
